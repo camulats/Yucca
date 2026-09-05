@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
+
+*:not([class*="fa-"], [class*="glyphicon"], .fa, .fas, .far, .fab, .combo-select-row),
+*:not([class*="fa-"], [class*="glyphicon"], .fa, .fas, .far, .fab, .combo-select-row)::before,
+*:not([class*="fa-"], [class*="glyphicon"], .fa, .fas, .far, .fab, .combo-select-row)::after {
+    font-family: 'Google Sans Flex', sans-serif !important;
+}
+
+body {
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/TropicalForest_WetNight.png') center center fixed;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover !important;
+	font-family: 'Google Sans Flex', sans-serif;
+	color: #A4BFAE;
+}
+
+body * {
+	color: #A4BFAE;
+}
+
+::-webkit-scrollbar {
+width: 7px;
+height: 7px; }
+::-webkit-scrollbar-track {
+background: #A4BFAE;}
+::-webkit-scrollbar-thumb {
+background: #A4BFAE; } 
+
+h1 {
+	color: #A4BFAE;
+	font-size: 30px;
+	text-align: center;
+          font-family: 'Google Sans Flex', sans-serif;
+}
+h3 {
+color: #A4BFAE !important;
+font-size: 18px;}
+    
+
+a:link,
+a:visited {
+color: #A4BFAE !important;
+background: none !important; }
+   
+a:hover {
+color: #3C6973 !important; }
+
+.container.main {
+background: rgba(20, 47, 64, 1);
+border: none;
+box-shadow: none;
+border-radius: 5px; }
+.col-md-9 {
+background: none; } 
+    
+    
+.topbar {
+	background: #0A1E26;
+	border: none;
+	border-top: none;
+	color: #A4BFAE;
+}
+.navbar {
+	background: #0A1E26 ;
+	border-bottom: none;
+	color:#A4BFAE;
+	border-radius: 0px
+}
+.navbar li a {
+	color: #A4BFAE !important
+}
+.navbar li a:hover {
+background: #3C6973 !important;
+color: #0A1E26 !important; }
+     
+.navbar-toggle {
+border: none !important;
+background: #142F40 !important;
+}
+
+.navbar-collapse {
+box-shadow: none !important;
+border-top: none !important;
+}
+
+    .breadcrumb {
+	background: #0A1E26 !important;
+        border: none;
+	border-radius: 0px
+}
+.breadcrumb .active {
+	color: #A4BFAE
+}
+  
+div#commentBox {
+background: #19414f !important;
+border: none !important;
+border-radius: 5px !important;
+color: #A4BFAE !important;}
+	
+.comment {     
+background:#3C6973 !important;
+border: 5px !important;
+border-bottom: none !important;
+border-radius: 0px !important;
+color: #A4BFAE !important;
+text-align: center !important;}
+.text-muted { 
+color: #A4BFAE !important; }  
+
+    
+.panel {
+background: #1b4057 !important;
+color: #A4BFAE !important;
+border: none !important;
+border-radius: 10px !important;
+box-shadow: none !important;  }
+
+
+.progress-bar {
+background: #A4BFAE !important; 
+border-radius: 0px !important; }
+
+.progress-bar-warning { 
+background: #7ABF92 !important;
+color: #000 !important;}
+/* HUNGER */ .progress-bar-danger { 
+background: #A4BFAE !important;
+color: #000 !important;}
+/* EXP + ACHIEVEMENTS */ .progress-bar-success { 
+background: #7ABF92 !important;
+color: #000 !important;}
+    
+.progress div {
+color: #000 !important; }
+.progress {
+color: #3C6973 !important;
+border-radius: 0px !important;  }
+
+button#label_currentChannel {
+border: none !important;
+background: #3C6973 !important; }
+
+div#chatMessageContainer {
+border: none !important; }
+
+.s-chat-message_timestamp {
+color: #7ABF92 !important; }
+    
+    
+.s-chat-sidebar #fraChatChannelMenu,
+button.channelSwitcher, button.channelSwitcher.active {
+    background: #3C6973 !important;
+color: #A4BFAE !important;	
+border: none !important;
+border-radius: 0px !important;
+box-shadow: none !important; }
+
+.s-chat-message__pinned {
+background-color: #3C6973 !important;
+color: #A4BFAE !important;
+border: none !important; }
+
+.s-chat-message {
+background: #3C6973 !important;
+color: #A4BFAE !important;
+border-bottom: 1px solid #19414f !important; }
+
+.s-chat-message:nth-child(even) {
+background: #3C6973 !important;
+border: none !important; }
+.s-chat-message:nth-child(odd) {
+background: #3C6973 !important;
+border: none !important; }
+
+.feature {
+background: #142F40 !important;
+color: #A4BFAE !important;
+border: 3px double #3C6973 !important;
+border-radius: 0px !important;  }
+
+div.left {
+background: #386273 !important;
+color: #000 !important;
+border: none !important;
+border-radius: 0px !important; }
+
+.xsmall {
+font-size: 14px !important; }
+
+.table {
+background: rgba(67, 115, 115, 0.2) ;
+border: none !important;
+border-collapse: separate;
+border-radius: 0px; }
+
+.top, .bottom, th {
+background: #1b4057 !important;
+color: #A4BFAE !important;
+border: none !important;
+border-radius: 0px !important; }
+
+.bottom a:visited, .bottom a {
+text-decoration: none !important;}
+
+.table .left {
+background: #1b4057;
+border-radius: 0px !important; }
+
+.inner-table .left {
+background: #142F40 !important;
+border-radius: 0px !important;  }
+
+.inner-table .right {
+background: #386273 !important;
+border-radius: 0px !important; 
+color: #A4BFAE !important; } 
+
+.right_odd {
+background: none !important; }  
+    
+div#lion_image {
+opacity: 1.0;
+border-radius: 0%;
+overflow: hidden; }   
+table#player img {
+opacity: 1.0;
+border-radius: 0%; }
+
+input, textarea, select, button.button,
+a.btn.btn-default.button {
+background: #386273 !important;
+border: none !important;
+border-radius: 0px !important;
+color: #A4BFAE !important;
+text-shadow: none !important; }
+
+.cave-grid,
+.mound-grid {
+background: #386273 !important;
+color: #A4BFAE !important;
+border: none !important;
+border-radius: 0px !important; }
+
+div.cave-grid>img {
+content: url('https://static.lioden.com/images/dynamic/backgrounds/TropicalForest_Night.png')!important;
+width: 240px;
+height: 120px; }
+
+/* Oxygen Blue Curve - https://www.cursors-4u.com/cursor/oxygen-blue-curve-12 */
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/oxygen-blue-curve-c85fd560-32.webp') 32 32, auto !important;
+}
+/* End www.Cursors-4U.com Code */
+
+.breadcrumb::after {
+content: "CSS by Cam #583285";
+color: #A4BFAE;
+position: absolute;
+right: 13%;
+z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
