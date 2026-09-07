@@ -40,11 +40,11 @@ font-size: 18px;}
 
 a:link,
 a:visited {
-color: #A4BFAE !important;
+color: #65899c !important;
 background: none !important; }
    
 a:hover {
-color: #3C6973 !important; }
+color: #446575!important; }
 
 .container.main {
 background: rgba(20, 47, 64, 1);
@@ -92,23 +92,35 @@ border-top: none !important;
 .breadcrumb .active {
 	color: #A4BFAE
 }
-  
+.alert-warning {
+background: #96737C !important;
+color: #ebd8da !important;}
+.alert-danger {
+background: #6d7355 !important;
+color: #E8EBE0 !important;}
+.alert-success {
+background: #6d7355 !important;
+color: #E8EBE0 !important;}
+
 div#commentBox {
 background: #19414f !important;
 border: none !important;
-border-radius: 5px !important;
-color: #A4BFAE !important;}
-	
-.comment {     
-background:#3C6973 !important;
-border: 5px !important;
-border-bottom: none !important;
 border-radius: 0px !important;
-color: #A4BFAE !important;
-text-align: center !important;}
+color: #A4BFAE !important;}
+
+input.bad {
+background: #HEX !important;
+color: #HEX !important;}
+input.bad a {
+color: #HEX !important; }
+
+table#player.table hr {
+display: none !important; }
+table#player.table div.xlarge { 
+margin-top: 10px !important; }
+
 .text-muted { 
 color: #A4BFAE !important; }  
-
     
 .panel {
 background: #1b4057 !important;
@@ -117,21 +129,34 @@ border: none !important;
 border-radius: 10px !important;
 box-shadow: none !important;  }
 
-
 .progress-bar {
 background: #A4BFAE !important; 
 border-radius: 0px !important; }
 
 .progress-bar-warning { 
-background: #7ABF92 !important;
+background: #558161 !important;
 color: #000 !important;}
-/* HUNGER */ .progress-bar-danger { 
-background: #A4BFAE !important;
+.progress-bar-danger { 
+background: #517E68 !important;
 color: #000 !important;}
-/* EXP + ACHIEVEMENTS */ .progress-bar-success { 
-background: #7ABF92 !important;
+.progress-bar-success { 
+background: #466960 !important;
 color: #000 !important;}
-    
+
+div#commentBox {
+background: #19414f !important;
+border: none !important;
+border-radius: 0px !important;
+color: #A4BFAE !important;}
+
+#comment {
+    color: #87a5b0 !important;
+}
+
+#comment::placeholder {
+    color: #87a5b0 !important;
+}
+
 .progress div {
 color: #000 !important; }
 .progress {
@@ -189,11 +214,15 @@ border-radius: 0px !important; }
 .xsmall {
 font-size: 14px !important; }
 
+#player .text-muted {
+    color: #00000080;
+}
 .table {
 background: rgba(67, 115, 115, 0.2) ;
 border: none !important;
 border-collapse: separate;
 border-radius: 0px; }
+
 
 .top, .bottom, th {
 background: #1b4057 !important;
@@ -248,6 +277,14 @@ content: url('https://static.lioden.com/images/dynamic/backgrounds/TropicalFores
 width: 240px;
 height: 120px; }
 
+.dynastylist .left {
+    background-color: #2B4F5F !important;
+}
+.dynastylist .left h3,
+.dynastylist .left a {
+    color: #446875 !important;
+}
+
 /* Oxygen Blue Curve - https://www.cursors-4u.com/cursor/oxygen-blue-curve-12 */
 * {
   cursor: url('https://cdn.cursors-4u.net/previews/oxygen-blue-curve-c85fd560-32.webp') 32 32, auto !important;
@@ -255,7 +292,7 @@ height: 120px; }
 /* End www.Cursors-4U.com Code */
 
 .breadcrumb::after {
-content: "CSS by Cam #583285";
+content: "CSS by Cam #583285 - template by Katie";
 color: #A4BFAE;
 position: absolute;
 right: 13%;
