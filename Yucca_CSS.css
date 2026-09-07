@@ -257,6 +257,11 @@ table#player img {
 opacity: 1.0;
 border-radius: 0%; }
 
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+content: url('https://64.media.tumblr.com/16c378c6e5c5e31ba51d248819e82d84/d49be9cf5baa610a-16/s250x400/dc0ad419d861cbc5da78017e932df426a4e4aa11.pnj'); }
+
 input, textarea, select, button.button,
 a.btn.btn-default.button {
 background: #386273 !important;
@@ -292,7 +297,7 @@ height: 120px; }
 /* End www.Cursors-4U.com Code */
 
 .breadcrumb::after {
-content: "CSS by Cam #583285 - template by Katie";
+content: "CSS by Cam #583285";
 color: #A4BFAE;
 position: absolute;
 right: 13%;
